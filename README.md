@@ -14,8 +14,8 @@ But sometimes the data you are working with does actually include
 ASCII text, and you need to string methods like indexOf() and slice().
 
 This class defines an <a
-href="http://www.khronos.org/registry/typedarray/specs/latest/#6>
-ArrayBufferView </a> wrapper around ArrayBuffers so that you can treat
+href="http://www.khronos.org/registry/typedarray/specs/latest/#6">
+ArrayBufferView</a> wrapper around ArrayBuffers so that you can treat
 them like strings, without paying the memory-doubling overhead of
 using real binary strings.  Of course the tradeoff is that we don't
 get native peformance for methods like indexOf().  But JavaScript
